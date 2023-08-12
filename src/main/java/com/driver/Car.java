@@ -33,6 +33,7 @@ public class Car extends Vehicle {
         move(newSpeed, newDirection);
         System.out.println("Speed changed to: " + newSpeed + " and direction changed to: " + newDirection + " degrees");
     }
+
     public int getCurrentGear() {
         return currentGear;
     }
